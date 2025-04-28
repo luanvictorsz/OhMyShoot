@@ -427,8 +427,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420031}
-  maxAmmun: 0
-  currentAmmun: 0
+  maxAmmun: 10
+  currentAmmun: 10
 --- !u!1 &1629556188
 GameObject:
   m_ObjectHideFlags: 0

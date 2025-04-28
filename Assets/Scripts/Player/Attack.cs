@@ -8,7 +8,8 @@ public class Attack : MonoBehaviour
     [SerializeField] private int currentAmmun;
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
