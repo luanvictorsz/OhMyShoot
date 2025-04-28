@@ -1,0 +1,19 @@
+												CRÉDITOS DOS ARQUIVOS DO JOGO
+
+FONTS:
+
+BalsamiqSans - Bold
+Upheavtt
+
+MÚSICAS E EFEITOS SONOROS:
+
+Phenala (https://freesound.org/people/Phenala/sounds/478647/)
+Leszek_Szary (https://freesound.org/people/Leszek_Szary/sounds/133283/)
+
+SPRITES:
+
+UI Pack Fixed - Kenney (https://www.kenney.nl/assets/ui-pack)
+Superpowers Asset Packs - Sparklin Labs (https://github.com/sparklinlabs/superpowers-asset-packs)
+
+Estes assets foram usados no curso "Crie um jogo FPS Retrô na Unity e C#" :)
+
