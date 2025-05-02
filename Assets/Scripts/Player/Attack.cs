@@ -6,6 +6,7 @@ public class Attack : MonoBehaviour
     [SerializeField] private Camera cam;
     [SerializeField] private int maxAmmun = 10;
     [SerializeField] private int currentAmmun;
+    [SerializeField] private GameObject prefabImpact;
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -31,12 +32,14 @@ public class Attack : MonoBehaviour
 
                 if (Physics.Raycast(ray, out hit))
                 {
-                    Debug.Log("Hit: " + hit.transform.name);
+                    Instantiate(prefabImpact, hit.point, Quaternion.identity);
+                    //Debug.Log("Hit: " + hit.transform.name);
                 }
                 else
                 {
                     Debug.Log("Missed");
                 }
+
                 Debug.Log("Current ammun: " + currentAmmun);
             }
             else
