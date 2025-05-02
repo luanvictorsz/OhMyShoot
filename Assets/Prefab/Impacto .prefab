@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9169091522036893745}
   - component: {fileID: 3785722589210815138}
   - component: {fileID: 2516729752243331980}
+  - component: {fileID: 3063250110652319144}
   m_Layer: 0
   m_Name: 'Impacto '
   m_TagString: Untagged
@@ -121,5 +122,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26105cc1f0fd9eb4ca64ac1b83eba5aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3063250110652319144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387411538835158355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0cb51a2dbdbe64baee0a75c32d169c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
