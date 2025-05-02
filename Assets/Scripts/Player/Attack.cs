@@ -7,10 +7,14 @@ public class Attack : MonoBehaviour
     [SerializeField] private int maxAmmun = 10;
     [SerializeField] private int currentAmmun;
     [SerializeField] private GameObject prefabImpact;
+
+    [SerializeField] private Animator anim;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -23,7 +27,7 @@ public class Attack : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-
+            anim.SetTrigger("Shoot");
             RaycastHit hit;
 
             if (currentAmmun > 0)

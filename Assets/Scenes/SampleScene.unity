@@ -585,6 +585,7 @@ MonoBehaviour:
   maxAmmun: 10
   currentAmmun: 10
   prefabImpact: {fileID: 387411538835158355, guid: 9c4f4c273b60f344b95854606cfb0be8, type: 3}
+  anim: {fileID: 0}
 --- !u!1 &1202687636
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +882,7 @@ Animator:
   m_GameObject: {fileID: 1660160488}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 262d8cf4bab460248a6b2707c8321699, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8631ffe8f3a368e46b3f4890657175f5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
