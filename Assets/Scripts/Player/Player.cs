@@ -2,7 +2,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
     [Header("Others")]
+    
+    public static Player instance;
+
     [SerializeField] private Rigidbody2D rig;
 
     [Header("Float")]
@@ -13,7 +17,10 @@ public class Player : MonoBehaviour
     [SerializeField] private Vector2 mouseMovement;
     [SerializeField] private Vector2 keyboardCommand;
 
-
+    void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
