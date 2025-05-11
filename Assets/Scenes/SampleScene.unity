@@ -585,7 +585,7 @@ MonoBehaviour:
   maxAmmun: 10
   currentAmmun: 10
   prefabImpact: {fileID: 387411538835158355, guid: 9c4f4c273b60f344b95854606cfb0be8, type: 3}
-  anim: {fileID: 0}
+  anim: {fileID: 1660160492}
 --- !u!1 &1202687636
 GameObject:
   m_ObjectHideFlags: 0

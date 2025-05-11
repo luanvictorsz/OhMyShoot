@@ -8,13 +8,12 @@ public class Attack : MonoBehaviour
     [SerializeField] private int currentAmmun;
     [SerializeField] private GameObject prefabImpact;
 
-    [SerializeField] private Animator anim;
+    [SerializeField] public Animator anim;
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -33,6 +32,7 @@ public class Attack : MonoBehaviour
             if (currentAmmun > 0)
             {
                 currentAmmun--;
+                anim.SetTrigger("Shooting");
 
                 if (Physics.Raycast(ray, out hit))
                 {
