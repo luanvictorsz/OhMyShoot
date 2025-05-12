@@ -410,9 +410,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 70
-    m_FontStyle: 0
+    m_Font: {fileID: 12800000, guid: d0315a27b2ec4ff4fa409a5baf5540f8, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 2
     m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 70
@@ -422,7 +422,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00
+  m_Text: 'ammun
+
+    00'
 --- !u!222 &480413031
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -440,11 +442,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 480413028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 3, y: -3}
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
 --- !u!1 &519420028
 GameObject:
@@ -834,6 +836,7 @@ MonoBehaviour:
   currentAmmun: 10
   prefabImpact: {fileID: 387411538835158355, guid: 9c4f4c273b60f344b95854606cfb0be8, type: 3}
   anim: {fileID: 1660160492}
+  ammoText: {fileID: 480413030}
 --- !u!1 &1202687636
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Attack : MonoBehaviour
 {
@@ -9,16 +10,21 @@ public class Attack : MonoBehaviour
     [SerializeField] private GameObject prefabImpact;
 
     [SerializeField] public Animator anim;
+    [SerializeField] public Text ammoText;
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+
     }
 
     void Update()
     {
         Shoot();
+
+        ammoText.text = "Ammun " + currentAmmun;
     }
 
     private void Shoot()
