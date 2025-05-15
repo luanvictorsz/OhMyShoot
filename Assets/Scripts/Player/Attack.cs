@@ -16,8 +16,6 @@ public class Attack : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
-
     }
 
     void Update()
@@ -57,8 +55,6 @@ public class Attack : MonoBehaviour
                 Debug.Log("No ammun");
                 return;
             }
-
-            
         }  
     }
 }
