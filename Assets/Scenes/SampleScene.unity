@@ -837,6 +837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rig: {fileID: 830356072}
+  anim: {fileID: 316099382}
   speed: 3
   mouseSensibility: 10
   mouseMovement: {x: 0, y: 0}

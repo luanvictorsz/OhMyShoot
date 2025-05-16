@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public static Player instance;
 
     [SerializeField] private Rigidbody2D rig;
+    [SerializeField] private Animator anim;
 
     [Header("Float")]
     [SerializeField] private float speed;
@@ -41,6 +42,16 @@ public class Player : MonoBehaviour
         Vector3 moveVertical = transform.right * keyboardCommand.y;
 
         rig.linearVelocity = (moveHorizontal + moveVertical) * speed;
+
+
+        if (rig.linearVelocity.magnitude == 0)
+        {
+            anim.Play("player_walk");
+        }
+        else
+        {
+            anim.Play("player_idle");
+        }
     }
 
     private void Camera()
