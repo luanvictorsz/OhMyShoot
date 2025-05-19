@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        EnemyMove();
     }
 
     void EnemyMove()
@@ -30,15 +30,15 @@ public class Enemy : MonoBehaviour
         {
             if(enemyIsMoving)
             {
-                transform.position = Vector3.MoveTowards(transform.position, walkPoints[currentWalkPointIndex].position, speed * Time.deltaTime);
-                if (Vector3.Distance(transform.position, walkPoints[currentWalkPointIndex].position) < 0.1f)
+                transform.position = Vector2.MoveTowards(transform.position, walkPoints[currentWalkPointIndex].position, speed * Time.deltaTime);
+
+                if(transform.position.y == walkPoints[~currentWalkPointIndex].position.y)
                 {
                     currentWalkPointIndex++;
-
-                    if (currentWalkPointIndex >= walkPoints.Length)
-                    {
-                        currentWalkPointIndex = 0;
-                    }
+                }
+                if (currentWalkPointIndex >= walkPoints.Length)
+                {
+                    currentWalkPointIndex = 0;
                 }
             }
         }
