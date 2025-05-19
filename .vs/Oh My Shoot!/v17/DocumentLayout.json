@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|f:\\projetos\\unity\\oh my shoot!\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|F:\\projetos\\unity\\Oh My Shoot!\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,7 +39,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Outros\\Enemy.cs",
               "ToolTip": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Outros\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Outros\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T22:57:57.95Z",
               "EditorCaption": ""
@@ -66,8 +66,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADwvzcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:31:20.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T05:31:20.911Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Attack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:29:30.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T05:29:30.019Z"
             },
             {
               "$type": "Document",
