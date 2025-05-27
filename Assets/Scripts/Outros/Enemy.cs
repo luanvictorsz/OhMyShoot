@@ -8,20 +8,19 @@ public class Enemy : MonoBehaviour
 
     [Header("Booleans")]
     [SerializeField] private bool enemyIsAlive;
-    [SerializeField] private bool enemyIsMoving;
+    [SerializeField] private bool enemyCanWalk;
 
     private float timeInThePoints;
-    private float tempoAtual;
+    private float timeActualy;
 
     void Start()
     {
         enemyIsAlive = true;
-        enemyIsMoving = true;
+        enemyCanWalk = true;
 
         transform.position = walkPoints[0].position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         EnemyMove();
@@ -31,19 +30,32 @@ public class Enemy : MonoBehaviour
     {
         if (enemyIsAlive)
         {
-            if(enemyIsMoving)
+            if(enemyCanWalk)
             {
                 transform.position = Vector2.MoveTowards(transform.position, walkPoints[currentWalkPointIndex].position, speed * Time.deltaTime);
 
                 if(transform.position.y == walkPoints[~currentWalkPointIndex].position.y)
                 {
-                    currentWalkPointIndex++;
+                    WaitForWalking();
                 }
                 if (currentWalkPointIndex >= walkPoints.Length)
                 {
                     currentWalkPointIndex = 0;
                 }
             }
+        }
+    }
+
+    private void WaitForWalking()
+    {
+        //enemyCanWalk = false;
+        timeActualy = Time.deltaTime;
+
+        if(timeActualy <= 0)
+        {
+            enemyCanWalk= true;
+            currentWalkPointIndex++;
+            timeActualy = timeInThePoints;
         }
     }
 }
