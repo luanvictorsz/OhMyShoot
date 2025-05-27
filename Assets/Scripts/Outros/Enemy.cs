@@ -10,6 +10,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] private bool enemyIsAlive;
     [SerializeField] private bool enemyIsMoving;
 
+    private float timeInThePoints;
+    private float tempoAtual;
+
     void Start()
     {
         enemyIsAlive = true;
