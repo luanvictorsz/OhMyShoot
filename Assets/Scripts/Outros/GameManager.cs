@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private GameManager instance;
+    private GameManager instance;
+
     [SerializeField] private bool playerIsAlive;
 
     void Awake()
@@ -14,6 +15,4 @@ public class GameManager : MonoBehaviour
     {
         transform.LookAt(Player.instance.transform.position, -Vector3.forward);
     }
-
-
 }
