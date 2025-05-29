@@ -10,15 +10,19 @@ public class Enemy : MonoBehaviour
     [SerializeField] private bool enemyIsAlive;
     [SerializeField] private bool enemyCanWalk;
 
-    private float timeInThePoints;
-    private float timeActualy;
+    private float waitTime = 3f;
+    private float waitCounter = 0f;
+    private bool isWaiting = false;
 
     void Start()
     {
         enemyIsAlive = true;
         enemyCanWalk = true;
 
-        transform.position = walkPoints[0].position;
+        if (walkPoints.Length > 0)
+        {
+            transform.position = walkPoints[0].position;
+        }
     }
 
     void Update()
@@ -28,34 +32,34 @@ public class Enemy : MonoBehaviour
 
     void EnemyMove()
     {
-        if (enemyIsAlive)
+        if (!enemyIsAlive) return;
+
+        if (isWaiting)
         {
-            if(enemyCanWalk)
+            waitCounter -= Time.deltaTime;
+            if (waitCounter <= 0f)
             {
-                transform.position = Vector2.MoveTowards(transform.position, walkPoints[currentWalkPointIndex].position, speed * Time.deltaTime);
-
-                if(transform.position.y == walkPoints[~currentWalkPointIndex].position.y)
-                {
-                    WaitForWalking();
-                }
-                if (currentWalkPointIndex >= walkPoints.Length)
-                {
-                    currentWalkPointIndex = 0;
-                }
+                isWaiting = false;
+                enemyCanWalk = true;
+                currentWalkPointIndex = (currentWalkPointIndex + 1) % walkPoints.Length;
             }
+            return;
         }
-    }
 
-    private void WaitForWalking()
-    {
-        //enemyCanWalk = false;
-        timeActualy = Time.deltaTime;
-
-        if(timeActualy <= 0)
+        if (enemyCanWalk && walkPoints.Length > 0)
         {
-            enemyCanWalk= true;
-            currentWalkPointIndex++;
-            timeActualy = timeInThePoints;
+            transform.position = Vector2.MoveTowards(
+                transform.position,
+                walkPoints[currentWalkPointIndex].position,
+                speed * Time.deltaTime);
+
+            // Verifica se chegou no ponto atual
+            if (Vector2.Distance(transform.position, walkPoints[currentWalkPointIndex].position) < 0.1f)
+            {
+                enemyCanWalk = false;
+                isWaiting = true;
+                waitCounter = waitTime;
+            }
         }
     }
 }

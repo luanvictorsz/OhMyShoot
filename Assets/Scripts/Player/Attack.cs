@@ -5,7 +5,7 @@ public class Attack : MonoBehaviour
 {
     [Header("Attack configs")]
     [SerializeField] private Camera cam;
-    [SerializeField] private int maxAmmun = 10;
+    [SerializeField] private int maxAmmun;
     [SerializeField] private int currentAmmun;
     [SerializeField] private GameObject prefabImpact;
 
