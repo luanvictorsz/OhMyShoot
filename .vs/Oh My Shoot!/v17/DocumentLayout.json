@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\outros\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|F:\\projetos\\unity\\Oh My Shoot!\\assets\\scripts\\outros\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\outros\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|F:\\projetos\\unity\\Oh My Shoot!\\assets\\scripts\\player\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|F:\\projetos\\unity\\Oh My Shoot!\\assets\\scripts\\outros\\looktoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\outros\\looktoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|F:\\projetos\\unity\\Oh My Shoot!\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|F:\\projetos\\unity\\Oh My Shoot!\\assets\\scripts\\outros\\looktoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\outros\\looktoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|F:\\projetos\\unity\\Oh My Shoot!\\assets\\scripts\\player\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|F:\\projetos\\unity\\Oh My Shoot!\\assets\\scripts\\outros\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\outros\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BCE2E0A-C021-19F9-E233-71BCE7FB58AC}|Assembly-CSharp.csproj|F:\\projetos\\unity\\Oh My Shoot!\\assets\\scripts\\outros\\destroywithtiime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,23 +34,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Outros\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Outros\\GameManager.cs",
               "ToolTip": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Outros\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Outros\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:22:45.982Z"
+              "WhenOpened": "2025-05-19T23:22:45.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,9 +57,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Outros\\DestroyWithTiime.cs",
               "ToolTip": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Outros\\DestroyWithTiime.cs",
               "RelativeToolTip": "Assets\\Scripts\\Outros\\DestroyWithTiime.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:23:33.922Z"
+              "WhenOpened": "2025-05-19T23:23:33.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,46 +70,49 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Outros\\Enemy.cs",
               "ToolTip": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Outros\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Outros\\Enemy.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T22:57:57.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "LookToPlayer.cs",
               "DocumentMoniker": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Outros\\LookToPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Outros\\LookToPlayer.cs",
               "ToolTip": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Outros\\LookToPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Outros\\LookToPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:09:38.892Z"
+              "WhenOpened": "2025-05-02T18:09:38.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
               "ToolTip": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:31:20.911Z"
+              "WhenOpened": "2025-04-28T05:31:20.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Attack.cs",
               "DocumentMoniker": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Player\\Attack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Attack.cs",
               "ToolTip": "F:\\projetos\\unity\\Oh My Shoot!\\Assets\\Scripts\\Player\\Attack.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Attack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:29:30.019Z"
+              "WhenOpened": "2025-04-28T05:29:30.019Z",
+              "EditorCaption": ""
             }
           ]
         }
